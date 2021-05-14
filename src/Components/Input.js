@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Input(){
+function Input(props){
     return(
-        <textarea id="editor"></textarea>
+        <textarea id="editor" onChange={props.eventFunc}>{props.value}</textarea>
     )
 }
 

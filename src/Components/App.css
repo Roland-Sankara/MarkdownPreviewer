@@ -1,5 +1,43 @@
-#root{
+#container{
     font-size: 3rem;
     font-family: monospace;
-    padding:4rem;
+    padding:0 4rem;
+}
+
+
+#editor,#preview{
+    width:45%;  
+    font-size: 1.5rem;
+    padding:1rem;
+}
+
+#preview h1,h2{
+    border-bottom: .1rem solid white;
+    padding-bottom: .1rem;
+}
+
+#preview blockquote{
+    border-left: .3rem solid teal;
+    padding-left: 1rem;
+    background-color: rgba(148, 137, 137, 0.294);
+}
+
+#preview{
+    border:.2rem solid black;
+    padding:1.5rem;
+    color: white;
+    background-color: rgba(44, 46, 46, 0.856);
+}
+
+#container > div{
+    display:flex;
+    justify-content: space-around;
+}
+
+code{
+    font-family: monospace;
+}
+
+a{
+    color:teal;
 }
